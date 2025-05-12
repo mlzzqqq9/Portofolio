@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  /* Animasi Fade-in */
+  .fade-in {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Hover Animation */
+  .hover\:scale-110:hover {
+    transform: scale(1.1);
+  }
+
+  .hover\:translate-y-2:hover {
+    transform: translateY(-8px);
+  }
+
+  /* Transisi untuk tema gelap */
+  html {
+    transition: background-color 0.5s ease, color 0.5s ease;
+     scroll-behavior: smooth;
+  }
+
+
+  
